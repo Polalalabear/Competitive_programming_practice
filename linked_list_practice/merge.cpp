@@ -12,9 +12,9 @@ void insert(Node** head, int n){
     node->val = n;
     if(!(*head))   (*head) = node;
     else{
-        Node* current = *head;
-        while(current->next)    current = current->next;
-        current->next = node;
+        Node* cur = *head;
+        while(cur->next)    cur = cur->next;
+        cur->next = node;
     }
 }
 

@@ -1,0 +1,4 @@
+# ignore .dSYM
+*.dSYM
+*.yml
+*.plist
