@@ -21,7 +21,7 @@ void insert(Node** head, int n){
 void show(Node* head){
     Node* cur = head;
     cout << "\n============\n";
-    cout << "Current node:\n";
+    cout << "Current linked list:\n";
     while(cur){
         cout << cur->val << " ";
         cur = cur->next;
